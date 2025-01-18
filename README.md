@@ -1,10 +1,11 @@
 Vacation project 2024 : Mastermind
 
-This project includes a working[?] version of the code guessing game Mastermind. 
-Additionally, the game works with profile system to record player highscores.
-The profile data is stored in a JSON file.
+Mastermind is a code breaking game played by two players, the codekeeper and the codebreaker. The codekeeper creates a code of six colored dots and the codebreaker attempts to guess the code. After each guess the codekeeper will indicate what, if any, guessed colors are included in the code or placed correctly. The game ends when the codebreaker guesses the correct code.
+
+I created this version of mastermind to put to use some of the concepts that I have learned in school. I was not aiming for a truly "good" creation but was instead trying to exercise my capabilities. I would note that I do not consider this game finished but I do feel some pride at getting as far as I did. I confess that I wrote all the code during car rides between stops around Acacia National Park, where I was on vacation with my family.
 
 Rules:
+
     The aim of the game is to guess the hidden code.
 
     The code will be created from a set of six different colors. 
@@ -20,12 +21,10 @@ Rules:
     If the player wishes to return to the menu during a game, they can press 'X'.
 
 Menu Options:
-    The game menu includes the following options:
-        1. Set Active Profile - This allows for the recording of game highscores. Without an active profile, the game will be run as a guest. No score will be recorded. 
-        2. Start Game - Initiates the game... duh.
-        3. Show High Scores - Shows the top five [5] high scores... again, pretty self explanitory.
-        4. Create New Profile - You can use this option to create a new profile.
-        5. Delete Profile - You can use this option to order Taco Bell. -_-
-        6. Exit Game - You will never believe what this one does.
 
-Anyways... this project is not meant to be perfect. Frankly, there are a number of things that I notice that I could change. Function summaries probably. Regardless, I have spent like two [2] years learning Python for school and I wanted to make something for it. Also, Im working on another project and I needed to practice. 
+    1. Set Active Profile - This allows for the recording of game highscores. Without an active profile, the game will be run as a guest. No score will be recorded. 
+    2. Start Game - Initiates the game... duh.
+    3. Show High Scores - Shows the top five high scores... again, pretty self explanitory.
+    4. Create New Profile - You can use this option to create a new profile.
+    5. Delete Profile - You can use this option to order Taco Bell. -_-
+    6. Exit Game - You will never believe what this one does.
